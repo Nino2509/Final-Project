@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  *:focus {
+    outline: none;
+  }
+  .meri {
+    background-color: green;
+    color: grey;
+  }
+  .home-page {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: url(./img/back1.jpg) center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.377);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quiz-page {
+    margin: 10px;
+    padding: 0;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 20px;
+    background-color: rgba(129, 118, 118, 0.445);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .quiz-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest {
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid #f76c74;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f76c74;
+    font-size: 30px;
+  }
+  .button {
+    background-color: transparent;
+    border: 2px solid #ec696b;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    font-weight: 700;
+    color: #ec696b;
+    background-image: linear-gradient(45deg, #ec696b 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: all 0.5s ease-in-out;
+  }
+  .pop {
+    position: absolute;
+    border-radius: 20px;
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(
+      circle,
+      rgba(208, 87, 99, 1) 0%,
+      rgba(139, 56, 78, 1) 100%
+    );
+  }
+  .buttons {
+    margin-bottom: 30px;
+    height: 15vh;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    border-radius: 30px;
+    width: 70vw;
+    height: fit-content;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(216, 191, 216, 0.397);
+  }
+  tr {
+    width: 30%;
+  }
+  .head {
+    background-color: rgba(216, 191, 216, 0.692);
+  }
+  .id {
+    border-top-left-radius: 30px;
+  }
+  .scor {
+    border-top-right-radius: 30px;
+  }
+  td,
+  th {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .title {
+    background-color: #28a745;
+    color: white;
+  }
+  img {
+    height: 30px;
+  }
+  .menu {
+    position: absolute;
+    background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100px, #e5e5e5 100%);
+    height: fit-content;
+    width: 10vw;
+    min-width: fit-content;
+    left: 55%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  .delete {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 60%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .delete:hover {
+    font-weight: 900;
+    background: #abc4ff;
+    border-radius: 10px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .mt {
+    margin-top: 20px;
+  }
+  .score {
+    height: 30vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #ef6f6e;
+    font-size: 30px;
+    border: 1px solid #ef6f6e;
+    border-radius: 30px;
+  }
+  .endQuiz {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-position: 0;
+    color: white;
+  }
+  .quiz {
+    width: 60vw;
+  }
+  .corect {
+    background-color: rgba(0, 128, 0, 0.445);
+  }
+  .notcorect {
+    background-color: rgba(172, 31, 31, 0.534);
+  }
+  .center {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
